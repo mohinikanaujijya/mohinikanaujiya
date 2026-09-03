@@ -1,0 +1,11 @@
+services:
+
+  ipstpro:
+    image: 172.16.36.131:9070/ipstpro/ipstpro:v1
+
+    container_name: ipstpro
+
+    ports:
+      - "8080:80"
+
+    restart: always
